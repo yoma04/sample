@@ -1,0 +1,188 @@
+*{
+  text-decoration: none;
+  font-family: 'Arial',YuGothic,'Yu Gothic','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3','メイリオ', Meiryo,'ＭＳ ゴシック',sans-serif;
+}
+body{
+  margin: 0;
+  min-height: 100vh;
+}
+li{
+  list-style: none;
+}
+/*-------header-------*/
+    .tablet{
+      display: none;
+    }
+    header{
+      position: relative;
+        margin: 0 ;
+      width: 100%;
+      background-color: white;
+      z-index: 10;
+      position:fixed;
+      top:0;
+    }
+    .headerTop{
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 5px 10px 0 10px;
+    }
+    .headerTitle{
+      display: inline-block;
+      font-size: 15px;
+      font-weight:600;
+      position: relative;
+      top:-8px;
+      color: rgba(18, 18, 18, 0.81);
+      margin-bottom: 15px;
+      letter-spacing:-1px;
+    }
+    .headerContact{
+      display: inline-block;
+      text-align: center;
+      position: relative;
+      float: right;
+      font-size: 90%;
+      top:25px;
+    }
+    .headerContact a{
+      color: #d81b60;
+    }
+    header .tell{
+      font-size: 180%;
+      color: #d81b60;
+      font-weight: 600;
+    }
+    .header-insta{
+      display: inline-block;
+      float: right;
+      margin: 15px 0 0 40px;
+    }
+    /*header-menu*/
+    .menu span{
+      font-size: 15px
+    }
+    ul.menu {
+      width: 100%;
+      margin: 0 auto;
+      padding: 0;
+      display: table;
+      table-layout: fixed;
+    }
+    ul.menu > li {
+      position: relative;
+      display: table-cell;
+      vertical-align: middle;
+      background: #d81b60;
+    
+    }
+    ul.menu li a {
+      display: block;
+      text-align: center;
+      font-size: 15px;
+      color: white;
+      padding: 10px 20px;
+      font-weight: bolder;
+    }
+    
+    ul.menu li ul {
+      visibility: hidden;
+      width: 100%;
+      list-style: none;
+      position: absolute;
+      top: 100%;
+      left: -0.5px;
+      margin: 0;
+      padding: 0;
+    }
+    ul.menu li:hover ul {
+      visibility: visible;
+    }
+    ul.menu li ul li {
+      background: #d81b60;
+    }
+    ul.menu > li:hover {
+      background: #f94762;
+    }
+    ul.menu li:hover  {
+      background: #f94762;
+    }
+    .header-menu li + li {
+      border-left: 2px solid white;
+    }
+    ul.menu ul li{
+      border-left: none;
+    }
+    ul.menu ul li a{
+      background-color: rgba(0,0,0,0.4);
+      border-bottom: 1px solid #fff;
+    }
+    ul.menu ul li a:hover{
+        background: #f94762;;
+    }
+    .fa-home,.fa-caret-down{
+      margin-right: 10px;
+    }
+    ul.menu i{
+      font-size: 20px;
+      padding-left: 15px;
+    }
+    .breadcrumb{
+      padding-top: 15px;
+      margin:0 auto;
+      width: 1250px;
+    }
+    .breadcrumb li{
+        float: left;
+    }
+    .breadcrumb li a{
+      color: rgb(0, 163, 204);
+  }
+  
+    .breadcrumb li::after{
+      content: '/';
+      display: inline-block;
+      padding:0 10px; /*左右に余白*/
+    }
+    .breadcrumb li:last-child::after{/*コレ*/
+      display: none;
+  }
+    /*--footer--*/
+    footer{
+      background-color: #303030;
+      text-align: center;
+      padding: 20px;
+      color: #fff;
+    }
+    .footer-body{
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .txtTop{
+      font-size: 2rem;
+    }
+    .txtBottom{
+      font-size: 1.25rem;
+      color: #fff;
+    }
+    .footerAddress{
+      font-size: 3rem;
+      color: #d81b60;
+    }
+    .footerList ul li{
+      display: inline-block;
+      border-right: 1px solid #fff;
+    }
+    .footerList ul li:last-child{
+      border-right: none;
+    }
+    .footerList ul li a{
+      display: block;
+      padding: 2px 25px;
+      color: #fff;
+    }
+    .instag i{
+      color: #eee;
+    }
+
+  
