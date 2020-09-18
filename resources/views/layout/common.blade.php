@@ -13,9 +13,9 @@
 
     <header>
     <div class="headerTop">
-    <a href="#"><img src="images/logo.png" alt="logo"></a>
+    <a href="/home"><img src="{{ asset('/images/logo.png') }}" alt="logo"></a>
     <p class="headerTitle">あなたのお部屋も心も綺麗に。</p>
-    <div class="header-insta"><a href="https://www.instagram.com/gawasa2929/"><img src="images/insta.png" alt="インスタ"></a></div>
+    <div class="header-insta"><a href="https://www.instagram.com/gawasa2929/"><img src="{{ asset('/images/insta.png') }}" alt="インスタ"></a></div>
     <address class="headerContact"><span class="tell"><a href="tel:+072-432-2212">072-432-2212</a></span><BR>受付時間0:00~23:59</address>
     </div>
     <nav class="header-menu">
@@ -25,7 +25,7 @@
     <li><a href="/service"><i class="fas fa-caret-down"></i>サービス</a>
         <ul>
         <div class="sub">
-        <li><a href="#">ハウスクリーニング</a></li>
+        <li><a href="/service/houseclean">ハウスクリーニング</a></li>
         <li><a href="#">オフィスクリーニング</a></li>
         <li><a href="#">木部灰汁洗い</a><li>
         <li><a href="#">エアコンクリーニング</a><li>
@@ -33,7 +33,7 @@
         </ul>
     </li>
     <li><a href="/order">ご注文の流れ</a></li>
-    <li><a href="/contact">お問い合わせ</a></li>
+    <li><a href="/index">お問い合わせ</a></li>
     <li><a href="/overview">会社概要</a></li>
     </ul>
     </nav>

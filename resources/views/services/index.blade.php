@@ -26,7 +26,7 @@
         <h2>ハウスクリーニング</h2>
     </div>
     <div class="contentbtn">
-    <a href="#"><i class="fas fa-angle-right"></i>一覧はこちら</a>
+    <a href="/service/houseclean"><i class="fas fa-angle-right"></i>一覧はこちら</a>
     </div>
     </div>
     <div class="contentTxt">

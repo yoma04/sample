@@ -1,0 +1,101 @@
+.toplist{
+text-align: center;
+padding-top: 180px;
+}
+.toplist ul li{
+  background-color: #E57373;
+  display: inline-block;
+  width: 20%;
+  padding: 20px 10px;
+}
+.toplist ul li a{
+  color: white;
+
+}
+.toplist ul li a:hover{
+  color: white;
+  text-decoration: underline;
+}
+  .serviceTitle{
+    text-align: center;
+  }
+  .serviceTitle h1{
+    margin: 20px 0 30px 0;
+    color:rgb(105, 105, 105);
+  }
+  .fast{
+    height: 300px;
+    width: 1200px;
+    margin: 0 auto;
+    background-image: url('../images/back2.jpg');
+    background-size: cover;
+  }
+ .back p{
+    color: rgb(26, 26, 26);
+    width: 285px;
+    font-weight: 600;
+ }
+ .back ul{
+    padding: 34px 20px;
+    margin: auto;
+    float: right;
+    background-color: aliceblue;
+ }
+ .beautiful{
+    font-size: 20px;
+ }
+ .back li:last-child{
+    margin-top: 50px;
+ }
+ /*section*/
+ section{
+   width: 800px;
+   margin: 50px auto;
+ }
+section ul{
+ display: flex;
+ margin: 50px 0 auto;
+ padding: 0;
+}
+ section ul li{
+   margin: 10px  10px auto;
+   
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: calc(50%);
+ }
+ .ContentBox{
+   text-align: center;
+ }
+.mess p{
+  font-size: 25px;
+  margin: 20px 0 0 0;
+  font-weight: bolder;
+  color: #d81b60;
+ }
+ .mess h2{
+   margin: 10px 0 0 0;
+   color: rgb(105, 105, 105);
+ }
+ .ContentBtn {
+  margin: 20px 0 20px 0;
+ }
+ .ContentBtn a{
+   background-color: #d81b60;
+   color: white;
+   padding: 15px 20px;
+   border-radius: 15px;
+ }
+ .ContentBtn a:hover{
+  opacity: 0.5;
+}
+ .ContentBtn p{
+  padding: 10px;
+}
+/*section2*/
+.two{
+  height: 300px;
+  width: 1200px;
+  margin: 0 auto;
+  background-image: url('../images/back3.jpg');
+  background-size: cover;
+}

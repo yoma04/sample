@@ -73,8 +73,7 @@ li{
       position: relative;
       display: table-cell;
       vertical-align: middle;
-      background: #d81b60;
-    
+      background: #E57373;
     }
     ul.menu li a {
       display: block;
@@ -99,7 +98,7 @@ li{
       visibility: visible;
     }
     ul.menu li ul li {
-      background: #d81b60;
+      background: #E57373;
     }
     ul.menu > li:hover {
       background: #f94762;
@@ -118,7 +117,7 @@ li{
       border-bottom: 1px solid #fff;
     }
     ul.menu ul li a:hover{
-        background: #f94762;;
+        background: #f94762;
     }
     .fa-home,.fa-caret-down{
       margin-right: 10px;

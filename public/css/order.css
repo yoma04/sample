@@ -27,9 +27,9 @@
       font-size: 18px;
       margin-top: 40px;
       padding-left: 10px;
-      border-bottom: solid 2px #d81b60;
+      border-bottom: solid 2px #E57373;
       color:white;
-      background-color: #d81b60;
+      background-color: #E57373;
       margin-bottom: 0;
     }
     .Steps1 h2 span{
@@ -73,8 +73,8 @@
     }
     .Steps1 h2{
       font-size: 20px;
-      border-bottom: solid 2px #d81b60;
-      background-color: #d81b60;
+      border-bottom: solid 2px #E57373;
+      background-color: #E57373;
       color: #fff;
       margin-bottom: 0;
     }
@@ -83,7 +83,7 @@
       margin:0 10px;
     }
     .stepOne,.stepTwo{
-      border: double 2px #d81b60;
+      border: double 2px #E57373;
     }
     .stepOne p,.stepTwo p{
       margin: 50px 0;
